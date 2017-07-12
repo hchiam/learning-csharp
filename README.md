@@ -1,6 +1,8 @@
 # learning-csharp
 Learning C#
 
+Just on of the things I'm learning. https://github.com/hchiam/learning
+
 ## Basics:
 https://www.learncs.org/
 
