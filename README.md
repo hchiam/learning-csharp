@@ -39,3 +39,23 @@ namespace HelloWorld
 ```sh
 dotnet run
 ```
+
+### To opt out of telemetry
+
+Open .bash_profile:
+
+```sh
+source ~/.bash_profile
+```
+
+Add this to .bash_profile:
+
+```txt
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+```
+
+Check that it worked: (should print out 1)
+
+```sh
+echo $DOTNET_CLI_TELEMETRY_OPTOUT
+```
