@@ -20,6 +20,7 @@ https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code
 mkdir HelloWorldExample
 cd HelloWorldExample
 dotnet new console --framework net7.0
+# you can safely ignore the bin and obj folder - they're auto-generated when you run
 ```
 
 ```cs
