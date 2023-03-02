@@ -1,11 +1,40 @@
-# learning-csharp
-Learning C#
+# Learning C#
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
-## Basics:
+## Basics
+
 https://www.learncs.org/
 
 https://www.youtube.com/watch?v=udnsw1eMVOg&list=PLkX2tb_Jm6xqj9hZ8LczOHoSELIr5SXeU
 
 https://www.tutorialspoint.com/csharp/index.htm
+
+## Get .NET to get C# to run in VSCode with `dotnet run`
+
+https://dotnet.microsoft.com/en-us/download/dotnet/sdk-for-vs-code
+
+https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code
+
+```sh
+mkdir HelloWorldExample
+cd HelloWorldExample
+dotnet new console --framework net7.0
+```
+
+```cs
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+```
+
+```sh
+dotnet run
+```
