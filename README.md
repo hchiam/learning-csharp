@@ -59,3 +59,14 @@ Check that it worked: (should print out 1)
 ```sh
 echo $DOTNET_CLI_TELEMETRY_OPTOUT
 ```
+
+## Miscellaneous notes
+
+**CSHTML .NET Razor:**
+
+Example of making a model/data/DTO/JSON get stringified for HTML:
+
+```cshtml
+@* https://stackoverflow.com/questions/26344089/how-to-get-json-object-from-razor-model-object-in-javascript *@
+<div data-model="@Newtonsoft.Json.JsonConvert.SerializeObject(this.Model)"></div>
+```
