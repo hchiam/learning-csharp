@@ -1,5 +1,6 @@
 # my notes on freeCodeCamp / Microsoft foundational course on C #
 
+- (quick note for the course(s): if you've already deeply learned a programming language or C# already, you might want to still open each page of a module to be able to eventually trigger completion of a trophy (not the same as a badge), but just make sure to also do the module assessment for the module to make sure you understand key points)
 - Visual Studio Code (vscode)
 - vscode extension "C# Dev Kit"
 - vscode extension "IntelliCode for C# Dev Kit" (for AI assistance, maybe if you don't already have AI assistance)
